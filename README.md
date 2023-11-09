@@ -118,9 +118,10 @@ kaynak kodu ile iletilmesi gerekmektedir.
 <details>
   <summary>Cevap</summary>
 
-- **Employee Table**
+##### Employees Table
 ![employee-table](https://github.com/ykpsph/enoca-challenge/assets/52661595/ea163a2d-6722-4590-9dc6-63e1245e09fd)
-- **Departments Table**
+
+##### Departments Table
 ![department-table](https://github.com/ykpsph/enoca-challenge/assets/52661595/8979667f-ff15-4e66-8790-5b7aa0b482b3)
 
 
