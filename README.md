@@ -123,6 +123,7 @@ kaynak kodu ile iletilmesi gerekmektedir.
 <details>
   <summary>Cevap</summary>
 
+[PROJEYI GORUNTULEMEK ICIN TIKLAYINIZ](https://github.com/ykpsph/enoca-challenge/tree/master/challenge)
 ##### Employees Table
 ![employee-table](https://github.com/ykpsph/enoca-challenge/assets/52661595/ea163a2d-6722-4590-9dc6-63e1245e09fd)
 
