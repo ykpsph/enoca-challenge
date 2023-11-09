@@ -95,7 +95,12 @@ kısmını nasıl doldurmalıyım?
 <details>
   <summary>Cevap</summary>
 
-- something
+- **updateAt** alanında 2020 Ocak ayından sonraki verileri getirmek icin query su sekilde olabilir : 
+```
+http://example?query=updateAt:[2020-01-01T00:00:00Z TO *]
+```
+- Bu query, **updateAt** alanının 2020 Ocak ayından sonraki tarihler arasında olan verileri getirecektir.
+- Burada `TO *` ifadesi, belirtilen tarihten sonraki tüm verileri ifade eder.
 </details>
 
 
