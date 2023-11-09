@@ -87,6 +87,20 @@ scp yakupsipahi@192.168.1.7:/home/java/documents/ a.txt
 </details>
 
 ---
+**7 )** Apache Solr servisine yazılacak bir query örneği Apache Solr kullanılan sql
+programlarından daha farklı runtime bir database. Solr a hali hazırda kayıtlı bir alan olduğunu
+düşünelim. Alanın ismi “updatedAt” long tipinde tutulan bir alan. Ben 2020 Ocak ayından
+sonraki verileri getir dediğimde solr a nasıl bir query yazılmalı. http://example?query=
+kısmını nasıl doldurmalıyım?
+<details>
+  <summary>Cevap</summary>
+
+- something
+</details>
+
+
+
+---
 **6 )** Local database kurulumu (mysql, postgresql veya herhangi bir database)
 - Java spring uygulaması ayağa kaldırılması,
 - İki adet tablo yer alamalı ve bu tabloların birbirleriyle bağı olmalıdır. (Örn: şirket ve çalışan
@@ -104,19 +118,30 @@ kaynak kodu ile iletilmesi gerekmektedir.
 <details>
   <summary>Cevap</summary>
 
-- Spring uygulamanızın kaynak kodlarını derlemeniz ve gerekli bağımlılıkları (dependencies) içeren bir paket veya JAR (Java ARchive) dosyası oluşturmanız gerekir.
-</details>
+- **Employee** ve **Department** tablolari uzerinde Postman kullanilarak gerceklestirilen CRUD operasyonlari :
+> Add Employee
+![Add Employee](https://github.com/ykpsph/enoca-challenge/assets/52661595/86c28ecb-ec64-4808-a058-4cac62fdfa56)
+> Get All Employees
+![7-employee-getall](https://github.com/ykpsph/enoca-challenge/assets/52661595/86c60dea-2117-448a-8cc4-346e88948fc4)
+> Get Employee By Id
+![8-employee-getbyid](https://github.com/ykpsph/enoca-challenge/assets/52661595/5c61636e-e049-4b9e-9270-df301dd40b64)
+> Update Employee 1
+![11-employee-before-update](https://github.com/ykpsph/enoca-challenge/assets/52661595/31e0ca5f-4df1-4737-8cbf-2c2be5595c61)
+> Update Employee 2
+![12-employee-after-update](https://github.com/ykpsph/enoca-challenge/assets/52661595/f7384792-2605-44cd-b5a3-b56651d832a1)
+> Delete Employee 1
+![9-employee-before-deleting](https://github.com/ykpsph/enoca-challenge/assets/52661595/078ed231-67d3-4b86-bdc0-b7ebed183f0b)
+> Delete Employee 2
+![10-employee-after-deletion](https://github.com/ykpsph/enoca-challenge/assets/52661595/09919f44-becd-4aeb-ac09-a76ddb76ff74)
 
----
-**7 )** Apache Solr servisine yazılacak bir query örneği Apache Solr kullanılan sql
-programlarından daha farklı runtime bir database. Solr a hali hazırda kayıtlı bir alan olduğunu
-düşünelim. Alanın ismi “updatedAt” long tipinde tutulan bir alan. Ben 2020 Ocak ayından
-sonraki verileri getir dediğimde solr a nasıl bir query yazılmalı. http://example?query=
-kısmını nasıl doldurmalıyım?
-<details>
-  <summary>Cevap</summary>
 
-- something
+
+
+
+
+
+
+
 </details>
 
 
